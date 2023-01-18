@@ -90,7 +90,7 @@
 
         function cycleImage() {
             prevName = document.getElementById("dratimage").src
-            prevName = prevName.substring(prevName.indexOf("images/")+7, prevName.indexOf("."))
+            prevName = prevName.substring(prevName.indexOf("images/")+7, prevName.indexOf(".png"))
             console.log(prevName)
             prevName = parseInt(prevName)
             if(prevName == 18) {
